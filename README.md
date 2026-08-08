@@ -52,7 +52,7 @@ The Gold layer contains the final analytical **Data Warehouse** using a **Star S
 
 ### ⭐ Star Schema
 DimCustomer
-DimDate -------- FactTransaction -------- DimMerchant
+------DimDate -------- FactTransaction -------- DimMerchant
 
 This structure simplifies the Power BI data model and supports efficient analytical queries.
 
