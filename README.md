@@ -51,6 +51,8 @@ Main tables:
                       |
                       |
 DimDate -------- FactTransaction -------- DimMerchant
+This structure allows efficient analytical queries and simplifies the Power BI data model.
+
 
 ---
 ##🗄️ SQL Server Data Warehouse
