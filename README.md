@@ -54,11 +54,11 @@ The Gold layer contains the final analytical **Data Warehouse** using a **Star S
 
 The dimension tables connect to the central `FactTransaction` table to create a structured analytical model.
 
-```text
                     DimCustomer
                          |
                          |
 DimDate -------- FactTransaction -------- DimMerchant
+This structure simplifies the Power BI data model and supports efficient analytical queries.
 
 Tools & Technologies
 SQL Server, T-SQL, Power BI, Power Query, DAX, Data Modeling, Star Schema, Medallion Architecture
