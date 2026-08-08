@@ -51,9 +51,6 @@ The Gold layer contains the final analytical **Data Warehouse** using a **Star S
 - `FactTransaction`
 
 ### ⭐ Star Schema
-
-The dimension tables connect to the central `FactTransaction` table to create a structured analytical model.
-
                     DimCustomer
 DimDate -------- FactTransaction -------- DimMerchant
 
