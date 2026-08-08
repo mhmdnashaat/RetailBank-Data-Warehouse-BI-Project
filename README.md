@@ -46,6 +46,7 @@ Main tables:
 
 ---
 
+```markdown
 ## ⭐ Star Schema
 
 The Gold layer follows a Star Schema design.
@@ -57,56 +58,7 @@ The Gold layer follows a Star Schema design.
 DimDate -------- FactTransaction -------- DimMerchant
 This structure allows efficient analytical queries and simplifies the Power BI data model.
 
-##🗄️ SQL Server Data Warehouse
-
-The Data Warehouse was developed using SQL Server and T-SQL.
-
-Dimension Tables
-
-DimCustomer
-
-Customer information
-Demographics
-Location
-Loyalty tier
-Date of birth
-
-DimMerchant
-
-Merchant information
-Merchant category
-Merchant location
-Activity status
-
-DimDate
-
-Date
-Year
-Quarter
-Month
-Month Name
-Day
-Day Name
-Weekend indicator
-Fact Table
-
-FactTransaction contains:
-
-Transaction ID
-Customer ID
-Merchant ID
-Transaction Amount
-Discount Amount
-Tax Amount
-Net Amount
-Transaction Date
-Payment Method
-Channel
-Entry Mode
-Device Type
-Transaction Status
-Fraud Indicator
-
+                
 ##🛠️ Tools & Technologies
 SQL Server
 T-SQL
