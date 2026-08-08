@@ -1,7 +1,7 @@
-##RetailBank — Data Warehouse & BI Dashboard
+RetailBank — Data Warehouse & BI Dashboard
 An end-to-end Banking Data Warehouse and Business Intelligence project built with SQL Server and Power BI.
 
-##Project Overview
+Project Overview
 RetailBank is an end-to-end Data Analytics project that transforms raw banking data into a structured Data Warehouse and an interactive Power BI dashboard.
 
 The project follows the complete analytics workflow:
@@ -10,17 +10,17 @@ Raw Data → Bronze → Silver → Gold → Power BI
 
 The main goal was to clean, transform, model, and analyze banking data to generate meaningful business insights.
 
-##Data Architecture
+Data Architecture
 The project follows a Medallion Architecture:
 
-###Bronze Layer
+Bronze Layer
 
 Raw customer data
 Raw merchant data
 Raw transaction data
 Source-level data preservation
 
-###Silver Layer
+Silver Layer
 
 Handling missing values
 Data type validation
@@ -28,7 +28,7 @@ Text cleaning and standardization
 Date validation
 Data preparation for analytics
 
-##3Gold Layer
+Gold Layer
 
 Contains the final analytical Data Warehouse using a Star Schema.
 
