@@ -51,3 +51,5 @@ Main tables:
                       |
                       |
 DimDate -------- FactTransaction -------- DimMerchant
+
+This structure provides a clean and efficient model for analytical reporting and Power BI.
