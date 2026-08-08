@@ -205,6 +205,8 @@ Transaction behavior across different entry modes and devices.
 
 📂 Project Structure
 
+
+
 RetailBank-Data-Warehouse-BI-Project
 │
 ├── Dashboard Screenshots
@@ -224,22 +226,28 @@ RetailBank-Data-Warehouse-BI-Project
 └── README.md
 
 
+
+
 🖼️ Dashboard Preview
 Overview
 
-View Overview Dashboard
+<img width="952" height="553" alt="Overview" src="https://github.com/user-attachments/assets/6da30837-e871-45c4-915a-5653f431be21" />
+
 
 Transactions
 
-View Transactions Dashboard
+<img width="951" height="549" alt="Transactions" src="https://github.com/user-attachments/assets/8e575d84-2ebe-4d61-ab73-94e714e01c84" />
+
 
 Customers
 
-View Customers Dashboard
+<img width="955" height="555" alt="Customers" src="https://github.com/user-attachments/assets/45c19508-4c3b-47be-9c28-15df13f5cb01" />
+
 
 Merchants
 
-View Merchants Dashboard
+<img width="954" height="551" alt="Merchants" src="https://github.com/user-attachments/assets/25dcc670-1f4f-4c0c-93a0-7360e188424d" />
+
 
 🎯 Project Objective
 
@@ -255,5 +263,9 @@ to transform raw transactional data into meaningful and actionable insights.
 
 Mohamed Nashaat
 Data Analyst | SQL | Power BI | Excel | Python
-LINKED IN Link := https://www.linkedin.com/in/mohamed-nashaat-47b685321/?locale=en
+
+LINKED IN Link :
+
+(https://www.linkedin.com/in/mohamed-nashaat-47b685321/)
+
 ⭐ If you find this project useful, feel free to explore the repository and dashboard.
