@@ -130,8 +130,6 @@ The Gold layer follows a **Star Schema** design:
                       |
 DimDate -------- FactTransaction -------- DimMerchant
 
-<img width="1357" height="676" alt="Diagram " src="https://github.com/user-attachments/assets/d8ac7c44-6d10-49d5-9b84-421663a3ed1e" />
-
 
 SQL Server
 T-SQL
@@ -163,7 +161,8 @@ Transactions by Payment Method
 Transactions by Month
 Customer Gender Distribution
 🖼️ Overview Dashboard
-<img width="952" height="553" alt="Overview" src="https://github.com/user-attachments/assets/d1c3ad76-884c-4dc9-b035-88c3b467a9e7" />
+
+(<img width="952" height="553" alt="Overview" src="https://github.com/user-attachments/assets/d1c3ad76-884c-4dc9-b035-88c3b467a9e7" />)
 
 2️⃣ Transactions
 
@@ -179,7 +178,9 @@ Fraud Analysis
 Fraud by Category
 Transactions by Entry Mode
 Transactions by Device Type
+
 🖼️ Transactions Dashboard
+
 <img width="951" height="549" alt="Transactions" src="https://github.com/user-attachments/assets/4cfe78af-d404-4aa1-8055-6ad579612dde" />
 
 3️⃣ Customers
@@ -197,6 +198,7 @@ Customers by City
 Customers by Loyalty Tier
 Top Customers by Transaction Amount
 🖼️ Customers Dashboard
+
 <img width="955" height="555" alt="Customers" src="https://github.com/user-attachments/assets/75f82b82-2e9a-4f2a-8587-0219888100f8" />
 
 4️⃣ Merchants
@@ -214,6 +216,7 @@ Top Merchants by Tax
 Top Merchants by Discount Value
 Top Cities by Transaction Amount
 🖼️ Merchants Dashboard
+
 <img width="954" height="551" alt="Merchants" src="https://github.com/user-attachments/assets/a6d47b73-24c2-4edb-83e5-550d96b378bb" />
 
 📈 Key Insights
