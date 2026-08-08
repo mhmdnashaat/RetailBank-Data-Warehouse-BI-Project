@@ -44,7 +44,11 @@ Main tables:
 - `DimDate`
 - `FactTransaction`
 
-### ⭐ Star Schema
+---
+
+## ⭐ Star Schema
+
+The Gold layer follows a Star Schema design.
 
 ```text
                  DimCustomer
@@ -54,7 +58,6 @@ DimDate -------- FactTransaction -------- DimMerchant
 This structure allows efficient analytical queries and simplifies the Power BI data model.
 
 
----
 ##🗄️ SQL Server Data Warehouse
 
 The Data Warehouse was developed using SQL Server and T-SQL.
