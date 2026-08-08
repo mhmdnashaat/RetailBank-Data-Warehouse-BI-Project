@@ -1,45 +1,64 @@
-RetailBank — Data Warehouse & BI Dashboard
-An end-to-end Banking Data Warehouse and Business Intelligence project built with SQL Server and Power BI.
+# 🏦 RetailBank — Data Warehouse & BI Dashboard
 
-Project Overview
-RetailBank is an end-to-end Data Analytics project that transforms raw banking data into a structured Data Warehouse and an interactive Power BI dashboard.
+> An end-to-end Banking Data Warehouse and Business Intelligence project built with **SQL Server** and **Power BI**.
+
+---
+
+## 📌 Project Overview
+
+RetailBank is an end-to-end Data Analytics project that transforms raw banking data into a structured **Data Warehouse** and an interactive **Power BI Dashboard**.
 
 The project follows the complete analytics workflow:
 
-Raw Data → Bronze → Silver → Gold → Power BI
+**Raw Data → Bronze → Silver → Gold → Power BI**
 
 The main goal was to clean, transform, model, and analyze banking data to generate meaningful business insights.
 
-Data Architecture
-The project follows a Medallion Architecture:
+---
 
-Bronze Layer
+## 🏗️ Data Architecture
 
-Raw customer data
-Raw merchant data
-Raw transaction data
-Source-level data preservation
+The project follows a **Medallion Architecture** consisting of three layers:
 
-Silver Layer
+### 🥉 Bronze Layer
 
-Handling missing values
-Data type validation
-Text cleaning and standardization
-Date validation
-Data preparation for analytics
+The Bronze layer preserves the original source data with minimal transformation.
 
-Gold Layer
+- Raw customer data
+- Raw merchant data
+- Raw transaction data
+- Source-level data preservation
 
-Contains the final analytical Data Warehouse using a Star Schema.
+### 🥈 Silver Layer
 
-Main tables:
+The Silver layer focuses on cleaning and preparing the data for analysis.
 
-DimCustomer
-DimMerchant
-DimDate
-FactTransaction
-Star Schema
-DimDate, DimCustomer, and DimMerchant connect to FactTransaction in the center. This structure allows efficient analytical queries and simplifies the Power BI data model.
+- Handling missing values
+- Data type validation
+- Text cleaning and standardization
+- Date validation
+- Data preparation for analytics
+
+### 🥇 Gold Layer
+
+The Gold layer contains the final analytical **Data Warehouse** using a **Star Schema**.
+
+### Main Tables
+
+- `DimCustomer`
+- `DimMerchant`
+- `DimDate`
+- `FactTransaction`
+
+### ⭐ Star Schema
+
+The dimension tables connect to the central `FactTransaction` table to create a structured analytical model.
+
+```text
+                    DimCustomer
+                         |
+                         |
+DimDate -------- FactTransaction -------- DimMerchant
 
 Tools & Technologies
 SQL Server, T-SQL, Power BI, Power Query, DAX, Data Modeling, Star Schema, Medallion Architecture
